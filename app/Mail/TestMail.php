@@ -51,7 +51,7 @@ class TestMail extends Mailable
     public function build()
     {
         return $this
-        ->from('mtibaamaryam347@gmail.com')
+        ->from('xxxxxxx@gmail.com')#votre @email
         ->subject('MonObjet')
         ->view('contact.contact');
         

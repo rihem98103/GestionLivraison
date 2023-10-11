@@ -41,7 +41,7 @@ class HomeController extends Controller
 		$users = User::all();
 
 		#3. Envoi du mail
-		Mail::to($users)->bcc("maryamelmtibaa@gmail.com")
+		Mail::to($users)->bcc("xxxxx@gmail.com")#votre @email
 						->queue(new TestMail($request->all()));
 
 		return back()->withText("Message envoyé");
